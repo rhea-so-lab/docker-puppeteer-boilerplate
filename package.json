@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "puppeteer": "20.4.0",
+    "rimraf": "5.0.1",
+    "typescript": "5.0.4"
+  }
+}
